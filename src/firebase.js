@@ -2,12 +2,14 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyCPWRyLbIk-j3tD9aQ99lAkPReRwKthnKI",
-  authDomain: "issuemodule.firebaseapp.com",
-  projectId: "issuemodule",
-  storageBucket: "issuemodule.appspot.com",
-  messagingSenderId: "405008571868",
-  appId: "1:405008571868:web:c0247f797abe761283c319"
+  apiKey: "AIzaSyA9JlUjBqNoO5d1gITMK5Z4eMRZiC1WsFo",
+  authDomain: "lyodatatest.firebaseapp.com",
+  databaseURL: "https://lyodatatest-default-rtdb.firebaseio.com",
+  projectId: "lyodatatest",
+  storageBucket: "lyodatatest.appspot.com",
+  messagingSenderId: "302792799465",
+  appId: "1:302792799465:web:12b5a722079a4f3948ac78",
+  measurementId: "G-DBZLYGN235"
 });
 
 const firestore = firebase.firestore();
