@@ -1,13 +1,15 @@
 import firebase from "firebase";
 
 let config = {
-  apiKey: "AIzaSyCyVtJVByttlqrgUXToRf7eGdT0kyVj3pY",
-  authDomain: "flow-chart-77eaa.firebaseapp.com",
-  projectId: "flow-chart-77eaa",
-  databaseURL: "https://flow-chart-77eaa-default-rtdb.firebaseio.com/",
-  storageBucket: "flow-chart-77eaa.appspot.com",
-  messagingSenderId: "825276871835",
-  appId: "1:825276871835:web:a8e4c174fba1778c32823e",
+ 
+  apiKey: "AIzaSyA9JlUjBqNoO5d1gITMK5Z4eMRZiC1WsFo",
+  authDomain: "lyodatatest.firebaseapp.com",
+  databaseURL: "https://lyodatatest-default-rtdb.firebaseio.com",
+  projectId: "lyodatatest",
+  storageBucket: "lyodatatest.appspot.com",
+  messagingSenderId: "302792799465",
+  appId: "1:302792799465:web:12b5a722079a4f3948ac78",
+  measurementId: "G-DBZLYGN235"
 };
 
 var fireDb = firebase.initializeApp(config);
